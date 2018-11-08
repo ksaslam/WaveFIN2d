@@ -1,5 +1,6 @@
 # WaveFIN2d
-This is a matlab code for solving anti-plane wave propagation in 2D. 
-This code is written in matlab for two elastic blocks coupled by a frictional interface. 
-The interface can support a maximum shear stress tau, otherwise slip occurs on the interface. 
+This is a matlab code for solving wave propagation in 2D.
+The waves are generated as a result of slip on a strike slip fault.
+Since it is a 2D code, the problem is solved as anti-plane problem.
+The fault is considered as a frictional interface which slips based on the slip weakening law. 
 Outer boundaries can be absorbing, free surface, or rigid by specifying a reflection coefficient. 
